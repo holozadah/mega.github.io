@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>  
+  <meta charset="utf-8">
+  <title>Mega Millions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css"> -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/sketchy/bootstrap.min.css" rel="stylesheet" integrity="sha384-Yr9hLdz4zKsdMcB2IUf0I2Y+KFalEfJez2d0H2rgQoAYjvm/mzbm2egxZ9Gc9kkg" crossorigin="anonymous">
+  
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="static/css/style.css"> -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<header>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="http://127.0.0.1:5000">Money Ball</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5000">Home</a>
+          </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" onclick="myFunction()" href="#" role="button" aria-haspopup="true" aria-expanded="false">Visualizations</a>
+          <div class="dropdown-menu" id="myDropdown" x-placement="bottom-start" >
+            <a class="dropdown-item" href="http://127.0.0.1:8000/tableau.html">Main Visualization</a>
+            <a class="dropdown-item" href="http://127.0.0.1:8000/heatmap_m.html">Heatmap (All)</a>
+            <a class="dropdown-item" href="http://127.0.0.1:8000/heatmap1.html">Heatmap (1st)</a>
+            <a class="dropdown-item" href="http://127.0.0.1:8000/heatmap2.html">Heatmap (2nd)</a>
+            <a class="dropdown-item" href="http://127.0.0.1:8000/heatmap3.html">Heatmap (3rd)</a>
+            <a class="dropdown-item" href="http://127.0.0.1:8000/heatmap4.html">Heatmap (4th)</a>
+            <a class="dropdown-item" href="http://127.0.0.1:8000/heatmap5.html">Heatmap (5th)</a>
+            </div>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:8000/about.html">About</a>
+        </li>
+    
+      </ul>
+      <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      // window.onclick = function(e) {
+      //   if (!e.target.matches('.dropbtn')) {
+      //   var myDropdown = document.getElementById("myDropdown");
+      //     if (myDropdown.classList.contains('show')) {
+      //       myDropdown.classList.remove('show');
+      //     }
+      //   }
+      // }
+      </script>
+</header>
+
+<body>
+
+
+<div class='tableauPlaceholder' id='viz1548199008955' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Nu&#47;NumberFrequency2&#47;FifthBall&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NumberFrequency2&#47;FifthBall' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Nu&#47;NumberFrequency2&#47;FifthBall&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1548199008955');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</body>
+</html>
